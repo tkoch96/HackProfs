@@ -3,9 +3,8 @@
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -100px;
-	background-color: #16191A;
-	font-family: 'Raleway', sans-serif;	
-	color: rgba(194, 190, 190, 0.8);
+	font-family: sans-serif;	
+	color: black;
 	font-size: 16px;
 }
 
@@ -13,44 +12,35 @@
 	position: absolute;
 	width: 100%;
 	padding: 0px;
-}
-
-.menu-item a:link{
-	color: rgba(191, 170, 42, 1);
-}
-
-.menu-item a:visited{
-	color: rgba(191, 170, 42, 1);
-}
-
-.menu-item a:hover{
-	color: rgba(53, 112, 140, 1);
-	
+	text-align:center;
 }
 
 .menu-item {
 	display: inline !important;
 	font-size:22px;
-	width: 31.5%;
 	padding: 0px;
 }
 
 .tab-content {
 	width: 100%;
 	display:none;
-	height:auto;
-	/*text-align: center;*/
-	text-align: justify;
-	margin:auto;
-	width: 39%
+	height:100%;
 }
 
-.nav-wrap { 
-	margin:10px auto;  
+.nav-wrap {   
 	width:100%;
 	height:25px;
-	border-color: white;
+
 	text-align: center;
+}
+.content {
+	width:100%;
+	margin:20px;
+	height:500px;
+}
+.tab {
+	width:100%;
+	height:100%;
 }
 
 #chemical {

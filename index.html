@@ -1,60 +1,57 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<link href="styles/main.css" rel="stylesheet" type="text/css">
-
-		<link href="Semantic-UI-1.8.1/dist/semantic.css" rel="stylesheet" type="text/css">
-
-		<script type="text/javascript" src="scripts/tabswitch.js"></script>
-
-		<link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
-
-		<script src='https://cdn.firebase.com/js/client/2.0.4/firebase.js'></script>
-		<title>Professor Reviews</title>
-	</head>
-	<body>
-		<div class="wrapper">
-			<div class="nav-wrap">
-				<div class="menu three column" id="magic-tabs">
-				 	<div class="menu-item current"><a href="#chemicalengineering">Chemical Engineering</a></div>
-
-				 	<div class="menu-item"><a href="#mechanicalengineering">Mechanical Engineering</a></div>
-
-					<div class="menu-item"><a href="#electricalengineering">Electrical Engineering</a>
-
-					<div class="menu-item"><a href="#chemistry">Chemistry</a>
-
-					<div class="menu-item"><a href="#mathematics">Mathematics</a>
-
-					<div class="menu-item"><a href="#physics">Physics</a>
-
-					</div></br>
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<link href="styles/main.css" rel="stylesheet" type="text/css">
+			<link href="Semantic-UI-1.8.1/dist/semantic.css" rel="stylesheet" type="text/css">
+			
+			<script type="text/javascript" src="scripts/jquery-2.1.3.min.js"></script>
+			<script type="text/javascript" src="Semantic-UI-1.8.1/dist/semantic.js"></script>
+			
+			<script type="text/javascript" src="scripts/tabswitch.js"></script>
+			<!--script src='https://cdn.firebase.com/js/client/2.0.4/firebase.js'></script-->
+			
+			
+			<title>Professor Reviews</title>
+		</head>
+		<body>
+			<div class="wrapper">
+				<div class="nav-wrap">
+					<div class="menu three column">
+						<div class="menu-item current"><a href="#home">Home</a></div>
+						<div class="menu-item"><a href="#chemicalengineering">Chemical Engineering</a></div>
+						<div class="menu-item"><a href="#mechanicalengineering">Mechanical Engineering</a></div>
+						<div class="menu-item"><a href="#electricalengineering">Electrical Engineering</a></div>
+						<div class="menu-item"><a href="#chemistry">Chemistry</a></div>
+						<div class="menu-item"><a href="#mathematics">Mathematics</a></div>
+						<div class="menu-item"><a href="#physics">Physics</a></div>
+					</div>
+				</div>
+				
+				<div class="content">
+					<div class ="tab">
+						<div id="home" class="tab-content">
+							<p> Welcome to our site </p>
+						</div>
+						<div id="chemicalengineering" class="tab-content">
+							<p> Irving Brazinsky</br></br>Shang-I Cheng</br></br>Benjamin Davis</br></br>William Hyman</br></br>Liz Leon</br></br>Daniel Lepek</br></br>Dionne Lutz</br></br>Oliver Medvedik</br></br>Charles Okorafor</br></br>Richard Stock</br></br>Michael Westbrook </br></br></p>
+						</div>
+						<div id="mechanicalengineering" class="tab-content">
+							<p> Melody Baglione</br></br>Michael Bambino</br></br>Robert Barrett</br></br>Scott Bondi</br></br>Wallace Chinitz</br></br>George Delagrammatikas</br></br>Robert Dell</br></br>Maria Jimenez</br></br>Lembit Kutt</br></br>Eric Lima</br></br>Dirk Luchtenburg</br></br>Haiyan Luo</br></br>Ericson Mar</br></br>Karl Orishimo</br></br>Jorge Ortega</br></br>Katherine Panchyk</br></br>George Sidebotham</br></br>Daniel Speyer</br></br>Thomas Synnott</br></br>Chih-Shing (Stan) Wei</br></br>David Wootton</br></br>Hui (Grace) Yu </br></br></p>
+						</div>
+						<div id="electricalengineering" class="tab-content">
+							<p> Alan Berenbaum</br></br>Bryan Conroy</br></br>Toby Cumberbatch</br></br>Sean Cusack</br></br>Maureen Deol</br></br>William Donahue</br></br>Fred Fontaine</br></br>Jeff Hakner</br></br>Lawrence Hausman</br></br>Timothy Hoerning</br></br>Neil Jackman</br></br>Sam Keene</br></br>Stuart Kirtman</br></br>Ralph L. Knapp</br></br>Ian Kremenic</br></br>Robert Marano</br></br>Aladino Melendez</br></br>Yashodhan Risbud</br></br>Carl Sable</br></br>Stanley Shinners</br></br>NIna Tandon</br></br>Steven Ungar</br></br>Yi Wang</br></br></p>
+						</div>
+						<div id="chemistry" class="tab-content">
+							<p> Peter Bastos</br></br>Patrick Chiu</br></br>Victoria Joyce</br></br>Kevin Kolack</br></br>Marcus Lay</br></br>Liz Leon</br></br>Andrea Newmark</br></br>Ruben Savizky</br></br>Omar Sharafeddin</br></br>Robert Topper</br></br>Samuel Wiener</br></br></p>
+						</div>
+						<div id="mathematics" class="tab-content">
+							<p> Om Agrawal</br></br>Paul Bailyn</br></br>Maureen Deol</br></br>Robert Hopkins</br></br>Michael Kumaresan</br></br>Stanislav Mintchev</br></br>Ryan Ronan</br></br>Susan Slome</br></br>Robert Smyth</br></br>Leonid Srubshchik</br></br>Leond Vulakh</br></br></p>
+						</div>
+						<div id="physics" class="tab-content">
+							<p> Zinoviy Akkerman</br></br>Michael Brodsky</br></br>Partha Debroy</br></br>Maureen Deol</br></br>Steven Kreis</br></br>Leonard Tevlin</br></br>gAlan Wolf</br></br></p>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="content">
-				<div class="tab">
-					<div id="chemical" class="tab-content">
-						<p> Irving Brazinsky</br></br>Shang-I Cheng</br></br>Benjamin Davis</br></br>William Hyman</br></br>Liz Leon</br></br>Daniel Lepek</br></br>Dionne Lutz</br></br>Oliver Medvedik</br></br>Charles Okorafor</br></br>Richard Stock</br></br>Michael Westbrook </br></br></p>
-					</div>
-					<div id="mechanical" class="tab-content">
-						<p> Melody Baglione</br></br>Michael Bambino</br></br>Robert Barrett</br></br>Scott Bondi</br></br>Wallace Chinitz</br></br>George Delagrammatikas</br></br>Robert Dell</br></br>Maria Jimenez</br></br>Lembit Kutt</br></br>Eric Lima</br></br>Dirk Luchtenburg</br></br>Haiyan Luo</br></br>Ericson Mar</br></br>Karl Orishimo</br></br>Jorge Ortega</br></br>Katherine Panchyk</br></br>George Sidebotham</br></br>Daniel Speyer</br></br>Thomas Synnott</br></br>Chih-Shing (Stan) Wei</br></br>David Wootton</br></br>Hui (Grace) Yu </br></br></p>
-					</div>
-					<div id="electrical" class="tab-content">
-						<p> Alan Berenbaum</br></br>Bryan Conroy</br></br>Toby Cumberbatch</br></br>Sean Cusack</br></br>Maureen Deol</br></br>William Donahue</br></br>Fred Fontaine</br></br>Jeff Hakner</br></br>Lawrence Hausman</br></br>Timothy Hoerning</br></br>Neil Jackman</br></br>Sam Keene</br></br>Stuart Kirtman</br></br>Ralph L. Knapp</br></br>Ian Kremenic</br></br>Robert Marano</br></br>Aladino Melendez</br></br>Yashodhan Risbud</br></br>Carl Sable</br></br>Stanley Shinners</br></br>NIna Tandon</br></br>Steven Ungar</br></br>Yi Wang</br></br></p>
-					</div>
-					<div id="chem" class="tab-content">
-						<p> Peter Bastos</br></br>Patrick Chiu</br></br>Victoria Joyce</br></br>Kevin Kolack</br></br>Marcus Lay</br></br>Liz Leon</br></br>Andrea Newmark</br></br>Ruben Savizky</br></br>Omar Sharafeddin</br></br>Robert Topper</br></br>Samuel Wiener</br></br></p>
-					</div>
-					<div id="math" class="tab-content">
-						<p> Om Agrawal</br></br>Paul Bailyn</br></br>Maureen Deol</br></br>Robert Hopkins</br></br>Michael Kumaresan</br></br>Stanislav Mintchev</br></br>Ryan Ronan</br></br>Susan Slome</br></br>Robert Smyth</br></br>Leonid Srubshchik</br></br>Leond Vulakh</br></br></p>
-					</div>
-					<div id="physics" class="tab-content">
-						<p> Zinoviy Akkerman</br></br>Michael Brodsky</br></br>Partha Debroy</br></br>Maureen Deol</br></br>Steven Kreis</br></br>Leonard Tevlin</br></br>gAlan Wolf</br></br></p>
-					</div>
-
-					
-				</div>
-			</div>
-		</div>
-	</body>
-</html>
+		</body>
+	</html>

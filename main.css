@@ -1,0 +1,36 @@
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -100px;
+	background-color: #16191A;
+	font-family: 'Raleway', sans-serif;	
+	color: rgba(194, 190, 190, 0.8);
+	font-size: 16px;
+}
+
+.menu {
+	position: absolute;
+	width: 100%;
+	padding: 0px;
+}
+
+.menu-item a:link{
+	color: rgba(191, 170, 42, 1);
+}
+
+.menu-item a:visited{
+	color: rgba(191, 170, 42, 1);
+}
+
+.menu-item a:hover{
+	color: rgba(53, 112, 140, 1);
+	
+}
+
+.menu-item {
+	display: inline !important;
+	font-size:22px;
+	width: 31.5%;
+	padding: 0px;
+}

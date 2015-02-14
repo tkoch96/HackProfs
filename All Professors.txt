@@ -1,4 +1,4 @@
-Chemical Engineering:
+	Chemical Engineering:
 
 Irving Brazinsky
 
@@ -22,7 +22,7 @@ Richard Stock
 
 Michael Westbrook
 
-Mechanical Engineering:
+	Mechanical Engineering:
 
 Melody Baglione
 
@@ -68,7 +68,7 @@ David Wootton
 
 Hui (Grace) Yu
 
-Electrical Engineering:
+	Electrical Engineering:
 
 Alan Berenbaum
 
@@ -116,7 +116,7 @@ Steven Ungar
 
 Yi Wang
 
-Chemistry:
+	Chemistry:
 
 Peter Bastos
 
@@ -140,7 +140,7 @@ Robert Topper
 
 Samuel Wiener
 
-Mathematics:
+	Mathematics:
 
 Om Agrawal
 
@@ -164,7 +164,7 @@ Leonid Srubshchik
 
 Leond Vulakh
 
-Physics:
+	Physics:
 
 Zinoviy Akkerman
 

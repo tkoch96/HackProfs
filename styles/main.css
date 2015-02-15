@@ -14,13 +14,17 @@
 	text-align:center;
 }
 
-div.picture {
+/*div.picture {
 	width: 40%;
 	margin-left: 30%;
 	margin-right: 30%;
 	padding-top: 30px;
 	display: block;
 	height: auto;
+}*/
+
+p {
+	margin:20px;
 }
 
 .menu-item {
@@ -29,9 +33,12 @@ div.picture {
 	padding: 0px;
 }
 
-.cartoonprofessor {
-	width: 250px;
-	margin-left: auto;
+.cartoonpicture {
+	width:auto;
+	margin:10px;
+	left:20px;
+	float:left;
+	overflow:auto;
 }
 
 #wrap {

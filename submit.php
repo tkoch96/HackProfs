@@ -16,7 +16,7 @@
 		$person = $_POST['profname'];
 		$personfilename = $person. '.txt';
 		
-		$fp = fopen($personfilename,a+);
+		$fp = fopen($personfilename,'a+');
 		
 		if(file_exists($fp)) {
 			fwrite($fp, $person.'\n\n');
@@ -32,5 +32,6 @@
 	} else {
 		echo 'Error, fields not set';
 	}
+	
 	
 	

@@ -28,6 +28,7 @@
 						<div class="menu-item ui inverted blue button"><a href="#mathematics">Mathematics</a></div>
 						<div class="menu-item ui inverted blue button"><a href="#physics">Physics</a></div>
 						<div class="menu-item" id="form-tab"><a href="#form"></a></div>
+						<div class="menu-item" id="submitpage"><a href="#formsubmit"></div>
 					</div>
 				</div>
 				
@@ -55,11 +56,14 @@
 							<p> <span class="people" id="Akkerman"><a href="#form">Zinoviy Akkerman</span></br></br><span class="people" id="Brodsky"><a href="#form">Michael Brodsky</span></br></br><span class="people" id="Debroy"><a href="#form">Partha Debroy</span></br></br><span class="people" id="Deol"><a href="#form">Maureen Deol</span></br></br><span class="people" id="Kreis"><a href="#form">Steven Kreis</span></br></br><span class="people" id="Tevlin"><a href="#form">Leonard Tevlin</span></br></br><span class="people" id="Wolf"><a href="#form">Alan Wolf</span></br></br></p>
 						</div>
 						<div class="tab-content" id="form">
-							<form action="C:\wamp\www\submit.php" method="post"> 
+							<form id="formsubmit" action="submit.php" method="post"> 
 								<label for="fieldone">Here you should list some things you think the professor did well.</label></br><textarea rows="5" columns="300" name="fieldone"></textarea> </br></br>
 								<label for="fieldtwo"> Here you should list some thing you think the professor could work on.</label></br><textarea rows="5" columns="300" name="fieldtwo"></textarea></br></br>
 								<input type="submit" value="Submit" name="submit"></input>
 							</form>
+						</div>
+						<div class="tab-content" id="formsubmit">
+							<p>Thanks for submitting feedback! If you would like to submit feedback for another professor, please navigate back to the professor tabs in the top right.</p>
 						</div>
 					</div>
 				</div>

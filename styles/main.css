@@ -49,12 +49,12 @@ p {
 	width: 100%;
 	display:none;
 	height:100%;
-   /* -webkit-column-count: 2; 
+   -webkit-column-count: 2; 
     -moz-column-count: 2;
     column-count: 2;
     -webkit-column-gap: 20px;
     -moz-column-gap: 20px; 
-    column-gap: 20px;*/
+    column-gap: 10px;
 }
 
 .people {

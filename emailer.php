@@ -3,7 +3,7 @@
 date_default_timezone_set('Etc/UTC');
 
 require 'PHPMailer-master/PHPMailerAutoload.php';
-$fp = fopen('ProfEmails.txt','w');
+$fp = fopen('ProfEmails.txt','r');
 
 while(true) {
 	$attch = fread($fp,filesize($fp));

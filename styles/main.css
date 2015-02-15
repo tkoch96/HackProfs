@@ -34,11 +34,8 @@ p {
 }
 
 .cartoonpicture {
-	width:auto;
-	margin:10px;
-	left:20px;
 	float:left;
-	overflow:auto;
+	margin:20px;
 }
 
 #wrap {
@@ -49,20 +46,26 @@ p {
 
 
 .tab-content {
-	width: 34.5%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: justify;
+	width: 100%;
 	display:none;
 	height:100%;
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
+   /* -webkit-column-count: 2; 
+    -moz-column-count: 2;
     column-count: 2;
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px; 
+    column-gap: 20px;*/
 }
 
+.people {
+	margin:5px;
+}
+.pplbuttons {
+	width:60%;
+	margin-left:10%;
+	float:right;
+	margin-right:30%;
+}
 #home { 
 	width: 34.5%;
 	margin-left: auto;
@@ -74,17 +77,13 @@ p {
     -moz-column-count: 1 !important; /* Firefox */
     column-count: 1 !important;
 }
-
+#logo {
+	margin:auto;
+	width:50%;
+}
 #form { 
-	width: 36%;
-	margin-left: 43%;
-	margin-right: auto;
-	text-align: justify;
-	display:none;
-	height:100%;
-    -webkit-column-count: 1 !important;
-    -moz-column-count: 1 !important;
-    column-count: 1 !important; 
+	margin:auto;
+	width:90%;
 }
 
 .nav-wrap {   
@@ -103,49 +102,5 @@ p {
 	height:100%;
 }
 
-#chemical {
-	margin:auto;
-	width: 39%
-}
 
-#electrical {
-	margin:auto;
-	width: 39%
-} 
 
-#mechanical {
-	margin:auto;
-	width: 39%
-}
-
-#chem {
-	margin:auto;
-	width: 39%
-}
-
-#math {
-	margin:auto;
-	width: 39%
-}
-
-#physics {
-	margin:auto;
-	width: 39%
-}
-
-field1#tb1 {
-	height: 30px;
-	width: 300 px;
-	background-color: #CEEEFA;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18px
-	color: #636768;
-}
-
-#field1:focus {
-	border: 2px solid green;
-}
-
-#field1: invalid {
-	border: 2px solid red;
-}

@@ -12,7 +12,7 @@
 		$fieldfour = $_POST['fieldfour'];
 		$fieldfive = $_POST['fieldfive'];
 		$fieldsix = $_POST['fieldsix'];
-		if(!file_exists('ProfEmails.txt');
+		if(!file_exists('ProfEmails.txt'));
 			shell_exec('touch ProfEmails.txt');
 		}
 		$fp = fopen('ProfEmails.txt','w');
@@ -50,9 +50,4 @@
 
 		
 		header("Location: http://localhost/HackProfs/HackProfs/thankspage.html");
-	} else {
-		echo 'Error, fields not set';
-	}
-	
-	
 	

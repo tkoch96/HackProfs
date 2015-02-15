@@ -4,7 +4,7 @@
 		
 		$person = $_POST['profname'];
 		if(!file_exists($person.'txt')){
-			$personfilename = $person. '.txt';
+			$personfilename = $person.'.txt';
 		}
 		$fieldone = $_POST['fieldone'];
 		$fieldtwo = $_POST['fieldtwo'];
@@ -12,12 +12,6 @@
 		$fieldfour = $_POST['fieldfour'];
 		$fieldfive = $_POST['fieldfive'];
 		$fieldsix = $_POST['fieldsix'];
-		if(!file_exists('ProfEmails.txt'));
-			shell_exec('touch ProfEmails.txt');
-		}
-		$fp = fopen('ProfEmails.txt','w');
-		fwrite($fp, $person."\n");
-		fclose($fp);
 		
 		
 		$fp = fopen($personfilename,'a+');
@@ -46,8 +40,18 @@
 			fwrite($fp, "\nHere is what a student deems your weaknesses to be.\n");
 			fwrite($fp, $fieldsix."\n");
 		}
-			fclose($fp);
+		fclose($fp);
+		
+		$zip = new ZipArchive();
+		if ($zip->open('profReviews.zip') === TRUE) {
+			$zip->addFile($personfilename);
+			$zip->close();
+			echo 'ok';
+		} else {
+			echo 'failed';
+			header("Location: http://localhost/HackProfs/HackProfs/index.html");
+		}
 
 		
 		header("Location: http://localhost/HackProfs/HackProfs/thankspage.html");
-	
+	}

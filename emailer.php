@@ -3,10 +3,10 @@
 date_default_timezone_set('Etc/UTC');
 
 require 'PHPMailer-master/PHPMailerAutoload.php';
-$fp = fopen('ProfEmails.txt','r');
 
-while(true) {
-	$attch = fread($fp,filesize($fp));
+
+
+	$attch = 'profReviews.zip';
 	//Create a new PHPMailer instance
 	$mail = new PHPMailer;
 
@@ -55,7 +55,7 @@ while(true) {
 	$mail->Body = 'Attached you will find your text files.';
 
 	//Attach an image file
-	$mail->addAttachment($attch.'.txt');
+	$mail->addAttachment($attch);
 
 	//send the message, check for errors
 	if (!$mail->send()) {
@@ -63,4 +63,3 @@ while(true) {
 	} else {
 		echo "Message sent!";
 	}
-}

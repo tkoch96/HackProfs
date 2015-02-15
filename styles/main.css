@@ -66,12 +66,23 @@ p {
 	float:right;
 	margin-right:30%;
 }
+
+.stuff {
+	font-size: 22px;
+}
+#admin {
+	margin:auto;
+	width:300px;
+	height:auto;
+	color:red;
+}
 #home { 
-	width: 34.5%;
+	width: 55%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: justify;
 	display:none;
+	font-size:22px;
 	height:100%;
     -webkit-column-count: 1 !important; /* Chrome, Safari, Opera */
     -moz-column-count: 1 !important; /* Firefox */

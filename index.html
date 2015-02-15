@@ -30,6 +30,7 @@
 						<div class="menu-item ui inverted blue button"><a href="#mathematics">Mathematics</a></div>
 						<div class="menu-item ui inverted blue button"><a href="#physics">Physics</a></div>
 						<div class="menu-item" id="form-tab"><a href="#form"></a></div>
+						<div class="menu-item"><a href="#admin"></a></div>
 					</div>
 				</div>
 				
@@ -38,9 +39,6 @@
 						<div id="home" class="tab-content">
 
 							<p> Have you ever wanted to make a real difference in the lives of both your professors and future students? Well, you can with this easy-to-use tool! Welcome to SubjectToChange, the service that allows you to submit reviews for professors you've had.</br> Although professors are very knowledgeable, sometimes they have difficulty imparting that knowledge on you. By taking part in this service, you can let your professors know which areas they excelled at, and which areas they need some improvement in. Please take a couple minutes out of your break to reflect upon how well you believe the professor shared his knowledge.</br>When writing your critique, please keep in mind that the best type of criticism is <em>constructive</em> critisicm. Comments such as "You're a bad teacher" or "Your class was way too hard" do not do anything for the professor. There are plenty of web services that allow you to vent your frustration if that is what you are aiming to do.</br>This review-system is anonymous! So be frank, yet polite when submitting your critique.
-							<form action="emailer.php" method="post">	
-								<input type="submit" value="Submit" name="submit2">
-							</form>
 							</p>
 						</div>
 						<div id="chemicalengineering" class="tab-content">
@@ -75,13 +73,13 @@
 						</div>
 						<div id="mathematics" class="tab-content">
 							<div class="cartoonpicture">
-								<img src="images/cartoonprofessor6.jpg" width="200px" align="left" alt="Cartoon Professor"></br></br>
+								<img src="images/cartoonprofessor6.png" width="200px" align="left" alt="Cartoon Professor"></br></br>
 							</div>
 							<div class="pplbuttons"><p> <span class="people" id="Agrawal"><a href="#form">Om Agrawal</a></span></br></br><span class="people" id="Bailyn"><a href="#form">Paul Bailyn</a></span></br></br><span class="people" id="Deol"><a href="#form">Maureen Deol</a></span></br></br><span class="people" id="Hopkins"><a href="#form">Robert Hopkins</a></span></br></br><span class="people" id="Kumaresan"><a href="#form">Michael Kumaresan</a></span></br></br><span class="people" id="Mintchev"><a href="#form">Stanislav Mintchev</a></span></br></br><span class="people" id="Ronan"><a href="#form">Ryan Ronan</a></span></br></br><span class="people" id="Slome"><a href="#form">Susan Slome</a></span></br></br><span class="people" id="Smyth"><a href="#form">Robert Smyth</a></span></br></br><span class="people" id="Srubshchik"><a href="#form">Leonid Srubshchik</a></span></br></br><span class="people" id="Vulakh"><a href="#form">Leonid Vulakh</a></span></br></br></p></div>
 						</div>
 						<div id="physics" class="tab-content">
 							<div class="cartoonpicture">
-								<img src="images/cartoonprofessor7.jpg" width="200px" align="left" alt="Cartoon Professor"></br></br>
+								<img src="images/cartoonprofessor7.png" width="200px" align="left" alt="Cartoon Professor"></br></br>
 							</div>
 							<div class="pplbuttons"><p> <span class="people" id="Akkerman"><a href="#form">Zinoviy Akkerman</a></span></br></br><span class="people" id="Brodsky"><a href="#form">Michael Brodsky</a></span></br></br><span class="people" id="Debroy"><a href="#form">Partha Debroy</a></span></br></br><span class="people" id="Deol"><a href="#form">Maureen Deol</a></span></br></br><span class="people" id="Kreis"><a href="#form">Steven Kreis</a></span></br></br><span class="people" id="Tevlin"><a href="#form">Leonard Tevlin</a></span></br></br><span class="people" id="Wolf"><a href="#form">Alan Wolf</a></span></br></br></p></div>
 						</div>
@@ -96,6 +94,12 @@
 								<label for="fieldfive"> What are their strengths? What should they keep doing?</label></br><textarea id="field5"rows="5" columns="300" value="" name="fieldfive"></textarea></br></br>
 								<label for="fieldsix"> What are their overall weaknesses? What can they change to improve?</label></br><textarea id="field6"rows="5" columns="300" value="" name="fieldsix"></textarea></br></br>
 								<input type="submit" value="Submit" name="submit">
+							</form>
+						</div>
+						<div class="tab-content" id="admin">
+							<p id="cheatText">Click submit to email the responses</p></br></br>
+							<form action="emailer.php" method="post">	
+								<input type="submit" value="Submit" name="submit2">
 							</form>
 						</div>
 				</div>

@@ -56,7 +56,7 @@
 			echo 'Could not find file';
 		}
 		
-		header("Location: http://localhost/HackProfs/HackProfs/index.html#formsubmit");
+		header("Location: http://localhost/HackProfs/HackProfs/thankspage.html");
 	} else {
 		echo 'Error, fields not set';
 	}

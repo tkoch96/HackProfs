@@ -29,7 +29,10 @@ div.picture {
 	padding: 0px;
 }
 
-
+.cartoonprofessor {
+	width: 250px;
+	margin-left: auto;
+}
 
 #wrap {
 	width:100px;
@@ -67,7 +70,7 @@ div.picture {
 
 #form { 
 	width: 36%;
-	margin-left: auto;
+	margin-left: 43%;
 	margin-right: auto;
 	text-align: justify;
 	display:none;

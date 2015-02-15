@@ -30,9 +30,18 @@ div.picture {
 }
 
 .tab-content {
-	width: 100%;
+	width: 34.5%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
 	display:none;
 	height:100%;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
 }
 
 .nav-wrap {   

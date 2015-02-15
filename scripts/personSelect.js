@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-	$('.people').addClass('ui basic blue button');
+	/*$('.people').addClass('ui basic blue button');
 	$('.people').click(function(event) {
 		event.preventDefault();
 		location.hash ='#form';
@@ -14,6 +14,6 @@ $(document).ready(function() {
 		$('#submitpage').addClass('current');
 		$('.tab-content').not('#submittab').css('display','none');
 		$('.menu-item').not('#submitpage').removeClass('current');
-		$('#submittab').fadeIn();
+		$('#submittab').fadeIn();*/
 	});
 });	

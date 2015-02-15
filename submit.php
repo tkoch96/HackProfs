@@ -1,5 +1,5 @@
 <?php
-	
+	header("Location: http://localhost/HackProfs/HackProfs/index.html#submittab");
 	if(isset($_POST['fieldone']) && isset($_POST['fieldtwo']) && isset($_POST['fieldthree']) && isset($_POST['fieldfour']) && isset($_POST['fieldfive']) && isset($_POST['fieldsix'])) {
 		if($_POST['fieldone'] == '') {
 			echo 'Please enter text for field one';

@@ -6,9 +6,4 @@ $(document).ready(function() {
 		$('#profname').attr('value',$name);
 		$('#title-blurb').text('Tell us what you think about ' + $name);
 	});
-	$('#formsubmit').submit(function(event) {
-		event.preventDefault();
-		location.hash = '#formsubmit';
-		$('#formsubmit').fadeIn();
-	});
 });	

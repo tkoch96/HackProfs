@@ -28,6 +28,8 @@
 		else {
 			echo 'Could not find file';
 		}
+		
+		header("Location: http://localhost/HackProfs/HackProfs/index.html#formsubmit");
 	} else {
 		echo 'Error, fields not set';
 	}

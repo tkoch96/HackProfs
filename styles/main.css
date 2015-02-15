@@ -29,10 +29,17 @@ div.picture {
 	padding: 0px;
 }
 
-#stuff {
+.cartoonprofessor {
+	width: 250px;
 	margin-left: auto;
-	margin-right: auto;
 }
+
+#wrap {
+	width:100px;
+	margin:auto;
+}
+
+
 
 .tab-content {
 	width: 34.5%;
@@ -61,10 +68,9 @@ div.picture {
     column-count: 1 !important;
 }
 
-
 #form { 
-	width: 34.5%;
-	margin-left: auto;
+	width: 36%;
+	margin-left: 43%;
 	margin-right: auto;
 	text-align: justify;
 	display:none;

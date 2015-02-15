@@ -35,7 +35,7 @@ p {
 
 .cartoonpicture {
 	float:left;
-	margin:20px;
+	margin-left:100px;
 }
 
 #wrap {
@@ -58,6 +58,7 @@ p {
 .pplbuttons {
 	width:15%;
 	display:inline-block;
+	margin-left:100px;
 }
 
 .stuff {

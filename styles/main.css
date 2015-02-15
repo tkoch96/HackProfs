@@ -132,3 +132,20 @@ p {
 	margin:auto;
 	width: 39%
 }
+
+field1#tb1 {
+	height: 30px;
+	width: 300 px;
+	background-color: #CEEEFA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px
+	color: #636768;
+}
+
+#field1:focus {
+	border: 2px solid green;
+}
+
+#field1: invalid {
+	border: 2px solid red;
+}

@@ -4,7 +4,7 @@
 	height: 100%;
 	margin: 0 auto -100px;
 	font-family: sans-serif;	
-	color: black;
+	color: teal;
 	font-size: 16px;
 }
 
@@ -52,6 +52,14 @@ p {
  
 }
 
+.formdiv {
+	width: 40%;
+	display:inline-block;
+	margin:35px;
+	font-size:18px;
+	color:blue;
+	padding:10px;
+}
 .people {
 	margin:5px;
 }
@@ -107,5 +115,7 @@ p {
 	height:100%;
 }
 
-
+#title-blurb {
+	padding:5px;
+}
 

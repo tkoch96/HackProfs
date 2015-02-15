@@ -29,15 +29,14 @@ div.picture {
 	padding: 0px;
 }
 
-#stuff {
-	margin-left: auto;
-	margin-right: auto;
+
+
+#wrap {
+	width:100px;
+	margin:auto;
 }
 
-.stoof {
-	margin-left: auto;
-	margin-right: auto;
-}
+
 
 .tab-content {
 	width: 34.5%;
@@ -65,7 +64,6 @@ div.picture {
     -moz-column-count: 1 !important; /* Firefox */
     column-count: 1 !important;
 }
-
 
 #form { 
 	width: 34.5%;

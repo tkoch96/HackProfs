@@ -18,12 +18,11 @@
 		
 		$fp = fopen($personfilename,'a+');
 		
-		if(file_exists($fp)) {
-			fwrite($fp, $person.'\n\n');
-			fwrite($fp, 'Here are some things a student liked. \n');
+		if(true) {
+			fwrite($fp, "Here are some things a student liked. \n");
 			fwrite($fp, $fieldone);
-			fwrite($fp, '\nHere are some things a student thought you could improve upon.\n');
-			fwrite($fp, $fieldtwo);
+			fwrite($fp, "\nHere are some things a student thought you could improve upon.\n");
+			fwrite($fp, $fieldtwo."\n");
 			fclose($fp);
 		}
 		else {

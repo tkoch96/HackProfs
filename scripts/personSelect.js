@@ -10,11 +10,10 @@ $(document).ready(function() {
 		$('#title-blurb').text('Tell us what you think about ' + $name);
 	});
 	$('#formsubmit').submit(function(event) {
+		
 		$('#submitpage').addClass('current');
-		$('.menu-item').not('submitpage').removeClass('current');
-		$('tab-content').not('#formsubmit').css('display','none');
-		$('#formsubmit').fadeIn();
-		location.hash = '#formsubmit';
-		window.scrollTo(0,0);
+		$('.tab-content').not('#submittab').css('display','none');
+		$('.menu-item').not('#submitpage').removeClass('current');
+		$('#submittab').fadeIn();
 	});
 });	

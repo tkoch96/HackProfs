@@ -35,10 +35,10 @@ require 'PHPMailer-master/PHPMailerAutoload.php';
 	$mail->SMTPAuth = true;
 
 	//Username to use for SMTP authentication - use full email address for gmail
-	$mail->Username = "tomkoch123@gmail.com";
+	$mail->Username = "toodledoo23@gmail.com";
 
 	//Password to use for SMTP authentication
-	$mail->Password = "pencil123";
+	$mail->Password = "doodle123";
 
 	//Set who the message is to be sent from
 	$mail->setFrom('tomkoch123@gmail.com', 'Thomas Koch');
